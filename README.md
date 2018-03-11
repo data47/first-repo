@@ -18,9 +18,9 @@ examples below for the appropriate formatting.
 |12            
 |3|9182 4221 0012 0003
 |812
-|321|
+|321
 |123       
-|220812 0321 0123 0022
+|22|0812 0321 0123 0022
 #
 
 | Tables        | Are           | Cool  |
