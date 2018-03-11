@@ -9,14 +9,16 @@ examples below for the appropriate formatting.
 
 **Input**|**Output**
  ---|---
-|12         
+12         
 433
 1          
 5331|0012 0433 0001 5331
+
 9182
 4221
 12            
 3|9182 4221 0012 0003
+
 812
 321
 123       
