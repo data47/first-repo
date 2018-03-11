@@ -51,3 +51,9 @@ examples below for the appropriate formatting.
 
 0321 0123 0022
 #
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
