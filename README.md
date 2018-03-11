@@ -36,18 +36,28 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-
-\usepackage{multirow}
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|l|}
-\hline
-Input & \multicolumn{1}{c|}{Output}          \\ \hline
-12    & \multirow{4}{*}{0012 0433 0001 5331} \\ \cline{1-1}
-433   &                                      \\ \cline{1-1}
-1     &                                      \\ \cline{1-1}
-5331  &                                      \\ \hline
-\end{tabular}
-\end{table}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">Input</th>
+    <th class="tg-s6z2">Output</th>
+  </tr>
+  <tr>
+    <td class="tg-031e">12</td>
+    <td class="tg-031e" rowspan="4">0012 0433 0001 5331</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">433</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">1</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">5331</td>
+  </tr>
+</table>
