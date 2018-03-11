@@ -25,34 +25,57 @@ examples below for the appropriate formatting.
 22
 #
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
 <table class="tg">
   <tr>
     <th class="tg-031e">Input</th>
-    <th class="tg-s6z2">Output</th>
+    <th class="tg-031e">Output</th>
   </tr>
   <tr>
     <td class="tg-031e">12</td>
-    <td class="tg-031e" rowspan="4">0012 0433 0001 5331</td>
+    <td class="tg-031e">0012 0433 0001 5331<br></td>
   </tr>
   <tr>
     <td class="tg-031e">433</td>
+    <td class="tg-031e"></td>
   </tr>
   <tr>
     <td class="tg-031e">1</td>
+    <td class="tg-031e"></td>
   </tr>
   <tr>
     <td class="tg-031e">5331</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">9182</td>
+    <td class="tg-031e">9182 4221 0012 0003</td>
+  </tr>
+  <tr>
+    <td class="tg-031e">4221</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">12</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">3</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">812</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">321</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-031e">123</td>
+    <td class="tg-031e"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">22</td>
+    <td class="tg-yw4l"></td>
   </tr>
 </table>
