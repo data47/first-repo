@@ -36,8 +36,8 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
+
+\usepackage{multirow}
 \begin{table}[]
 \centering
 \caption{My caption}
