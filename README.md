@@ -31,3 +31,16 @@ examples below for the appropriate formatting.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+|  		  	  |  		 Grouping			||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*   		||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      |            And more          ||
