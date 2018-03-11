@@ -1,6 +1,3 @@
-# programming-fundamentals
-Programming Fundamentals Repository
-
 ## Problem 1.                 
 Debit Card Number
 
@@ -12,18 +9,19 @@ examples below for the appropriate formatting.
 
  
 
-|**Input**-|**Output**----|
-|12--------|0433 0001 5331|        
-|  --------|
-|433-------|
-|----------|
-|1         |    
-|----------|
-|5331------|
-|----------|
-|0012------|
-|----------|
+**Input**    **Output**
+ 
+12          
 
+433
+
+1              
+
+5331
+
+0012
+
+0433 0001 5331
 
 **Input**     **Output**
 
@@ -52,73 +50,4 @@ examples below for the appropriate formatting.
 0812
 
 0321 0123 0022
-##
-
-## Problem 3.               
-Miles to Kilometers
-
-Write a program, which **converts****miles** to **kilometers**. **Format** the output to the **2
-
-nd
-decimal place**.
-
-Note: **1
-mile == 1.60934 kilometers**
-
-#### Examples
-
- 
-
-**Input**
-
- 
-
-**Output**
-
- 
-
-** **
-
- 
-
-**Input**
-
- 
-
-**Output**
-
- 
-
-** **
-
- 
-
-**Input**
-
- 
-
-**Output**
-
- 
-
-60
-
- 
-
-96.56
-
- 
-
-1
-
- 
-
-1.61
-
- 
-
-52.1113
-
- 
-
-83.86
+#
