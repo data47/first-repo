@@ -8,17 +8,17 @@ examples below for the appropriate formatting.
 #### Examples
 
 **Input**|**Output**
----|---
+---|
 12|0012 0433 0001 5331       
 433
 1          
 5331
----|---
+---|
 9182|9182 4221 0012 0003
 4221
 12            
 3
----|---
+---|
 812|0812 0321 0123 0022
 321
 123       
@@ -31,12 +31,3 @@ examples below for the appropriate formatting.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-|  		  	  |  		 Grouping			||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*   		||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      |            And more          ||
-[Prototype table]
