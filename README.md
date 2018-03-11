@@ -36,11 +36,18 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-|  		  	  |  		 Grouping			||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*   		||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      |            And more          ||
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+Input & \multicolumn{1}{c|}{Output}          \\ \hline
+12    & \multirow{4}{*}{0012 0433 0001 5331} \\ \cline{1-1}
+433   &                                      \\ \cline{1-1}
+1     &                                      \\ \cline{1-1}
+5331  &                                      \\ \hline
+\end{tabular}
+\end{table}
